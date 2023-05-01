@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscrição</title>
+    <link rel="stylesheet" href="/stiles.css">
+</head>
+<body>
+  
+ <div class="container">
+ <div class="header">
+ </div>
+ <br><br><br>
+  
+<form id="form" class="forms">
+<legend class="legend"><b>PREENCHA O FORMULÁRIO</b></legend>
+
+<div class="formimput">
+<label for="username"><h3 class="title">NOME COMPLETO</h3></label>
+<input type="text" id="username" class="input" placeholder="Seu Nome" checked,required>
+<i class="fa-solid fa-x"></i>
+<i class="fa-solid fa-check"></i>
+
+<br>
+
+<div class="formimput">
+    <label for="emailuser"><h3 class="title">EMAIL</h3></label>
+    <input type="email" id="emailuser" class="input" placeholder="Seu Email" checked,required>
+    <i class="fa-solid fa-x"></i>
+    <i class="fas fa-check-circle"></i>
+    
+    <br>
+
+    <div class="formimput">
+        <label for="passworduser"><h3 class="title">SENHA</h3></label>
+        <input type="password" id="passworduser" class="input" placeholder="Seu Password" checked, required>
+        <i class="fa-solid fa-x"></i>
+        <i class="fa-solid fa-check"></i>
+        
+         <br>
+
+        <div class="formimput">
+            <label for="DataNascimento"><h3 class="title">DATA DE NASCIMENTO</h3></label>
+            <input type="datetime-local" class="input" id="DataNascimento" placeholder="Sua Data" checked, required>
+            <i class="fa-solid fa-x"></i>
+            <i class="fa-solid fa-check"></i>
+            
+           
+            <div class="inputbox">
+            <p class="title">QUAL SEU SEXO?</p>
+            <div class="inputbox2">
+            <input type="radio" id="masculino" class="genero" name="radio" value="Masculino" required>
+            <label for="Masculino">Masculino</label>
+
+            <input type="radio" id="feminino" class="genero" name="radio" value="Feminino" required>
+            <label for="Feminino">Feminino</label>
+
+            <input type="radio" id="outro" class="genero" name="radio" value="Outro" required>
+            <label for="Outro">Outro</label><br>
+              
+        
+            
+            
+            
+            
+            <br><br> <div class="buttom">
+            <input type="submit" id= "submit" class="submit">
+            
+
+            
+              
+             
+                
+                    
+                        
+                        
+            
+    
+                    
+                 
+              
+                     
+
+</div>
+</form>
+
+</body>
+</html>
